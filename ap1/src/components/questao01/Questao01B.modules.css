@@ -1,0 +1,9 @@
+.questao01B {
+     float: center;
+     text-align: center;
+     border: 3px solid green;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 20px;
+     width: 450px;
+}
