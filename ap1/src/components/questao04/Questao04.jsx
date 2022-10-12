@@ -14,7 +14,8 @@ export function Questao04() {
      }, [])
 
      return (
-          <div>
+          <div className="container-sm">
+               <h1>Questão 04</h1>
                {
                     paises.reduce((paisMaisPopuloso, pais) => {
                          return (paisMaisPopuloso.population < pais.population) ? pais : paisMaisPopuloso
